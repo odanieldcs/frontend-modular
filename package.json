@@ -11,5 +11,9 @@
   "packageManager": "pnpm@10.11.0",
   "keywords": [],
   "author": "Daniel Castro <daniel@danieldcs.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "~5.8.3"
+  }
 }
