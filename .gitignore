@@ -1,0 +1,62 @@
+# Logs & Debug Files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*storybook.log
+
+# Dependencies
+node_modules/
+
+# Build & Distribution
+build/
+dist/
+dist-ssr/
+storybook-static/
+
+# Cache Directories
+.cache/
+.parcel-cache/
+.nx/cache/
+.biome-cache/
+
+# Framework Specific
+.react-router/
+
+# Testing
+coverage/
+*.lcov
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Environment Variables
+.env.local
+.env.production
+
+# Temporary Files
+tmp/
+temp/
+*.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security & Certificates
+certs/
+*.pem
