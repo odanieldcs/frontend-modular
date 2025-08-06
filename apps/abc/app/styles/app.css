@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import '@fe-modular/ui/styles';
+
+/* Import theme */
+@import './theme.css';
